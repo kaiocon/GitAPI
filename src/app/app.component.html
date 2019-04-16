@@ -1,0 +1,32 @@
+
+<div class="projectWrapper">
+
+  <div class="projectContent">
+    <table class='table'>
+      <thead>
+      <tr>
+        <th>ID</th>
+        <th>User Name </th>
+        <th>Full Name</th>
+        <th>Link</th>
+        <th>Location</th>
+      </tr>
+      </thead>
+      <tbody>
+
+      <tr *ngIf="show">
+        <td>{{ user.id }}</td>
+        <td>{{ user.login }}</td>
+        <td>{{ user.name }}</td>
+        <td><a href="{{ user.html_url }}">Page</a></td>
+        <td>{{ user.location }}</td>
+      </tr>
+      </tbody>
+    </table>
+
+    <input type="text" [(ngModel)]="userName">
+    <a class="projectDemo" (click)="SearchUser()">Search</a>
+  </div>
+  <img class="projectImage" alt="" src="{{ user.avatar_url }}">
+
+</div>

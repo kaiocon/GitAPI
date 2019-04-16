@@ -1,0 +1,50 @@
+/* You can add global styles to this file, and also import other style files */
+/* Kai O'Connor*/
+a,body,div,footer,form,h1,h2,h3,h4,h5,h6,header,hr,html,img,input,label,li,main,nav,ol,p,section,span,svg,ul{
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-decoration: none;
+  color: inherit;
+}
+body{
+  background-color: #f4f4f4;
+  margin: auto;
+}
+.projectWrapper {
+  width: 50%;
+  box-shadow: 0 50px 100px rgba(50, 50, 93, .05), 0 15px 35px rgba(50, 50, 93, .1), 0 5px 15px rgba(0, 0, 0, .1);
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2em;
+  background-color: #fff;
+}
+
+.projectContent {
+  position: relative;
+  width: 50%;
+  background: #fff;
+  padding: 25px;
+  float: left;
+}
+
+.projectImage {
+  display: inline-block;
+  max-width: 42%;
+  height: auto;
+  float: right;
+}
+
+.projectDemo {
+  background-color: #6ccbea;
+  border-radius: 4px;
+  color: #fff;
+  padding: 10px 10px;
+  font-size: 1rem;
+  margin-top: 10%;
+  font-weight: 400;
+}
